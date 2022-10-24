@@ -3,11 +3,10 @@ $minWith: 500px;
 $color_drink: red;
 
 @mixin btn_hovet {
-    :hover 
+    :hover {
     background-color: red;
-
 }
-
+}
 h1 {
     color: red;
     width: $minWith;
